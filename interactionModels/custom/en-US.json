@@ -1,0 +1,81 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancell"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FlashCardIntent",
+          "samples": [
+            "give me more words",
+            "more words",
+            "words",
+            "give me more",
+            "other words",
+            "more",
+            "other",
+            "another"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [
+            "home"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FlashCardBackIntent",
+          "samples": [
+            "five back",
+            "less",
+            "rewind",
+            "previous",
+            "back",
+            "get back"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FlashCardRepeatIntent",
+          "samples": [
+            "again",
+            "repeat"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FlashCardGoStartIntent",
+          "samples": [
+            "start again",
+            "go to start",
+            "start"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "a. s. v. a. b. flashcards"
+    }
+  }
+}
